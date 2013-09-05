@@ -2,9 +2,10 @@ from BeautifulSoup import BeautifulSoup
 import requests
 import time
 import math
+import sys
 
 BASEURL = "http://www.bitcoincharts.com/?page="
-FILENAME = "/Users/shrayas/code/hacks/bitcoin-news/output.txt"
+FILENAME = sys.argv[1]
 
 f = open(FILENAME,'w')
 
